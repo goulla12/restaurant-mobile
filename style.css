@@ -1,0 +1,214 @@
+/* for mobile approach */
+@media(min-width: 300px){
+    *{
+        background-color: none;
+        margin: none;
+        padding: none;
+    }
+    .section{
+        background-color: #666967;
+    }
+    .section1 h1{
+        text-align: center;
+    }
+    .span{
+        color: rgb(67, 153, 10);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        font-size: 60px;
+        text-shadow: 2px 2px crimson;
+    }
+    .img{
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        margin-left: 3px;
+    }
+    .list{
+        list-style: none;
+        text-align: center;
+    }
+    .favourite-food{
+        margin-top: 10px;
+    }
+    .favourite-food h{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        text-align: none;
+        margin-left: 0px;
+        font-size: 35px;
+        color: burlywood;
+        text-shadow: 2px black;
+    }
+    .favourite-food p{
+        margin-top: 30px;
+        margin-left: 15px;
+        font-weight: bold;
+    }
+    .favourite-food button{
+        border-radius: 40px;
+        height: 30px;
+        width: 90px;
+        background-color: brown;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        box-shadow: 3px 3px black
+        
+    }
+    .grid1{
+        display: flex;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        margin-right: 15px;
+    }
+    .section2{
+        background-color: rgb(0, 255, 132);
+        padding-bottom: 60px;
+        padding-top: 40px;
+    }
+    .about{
+        margin: 40px;
+        margin-left: 30px;
+    }
+    .about h{
+        font-weight: bolder;
+        font-size: 30px;
+
+    }
+    .about button{
+        border-radius: 40px;
+        height: 30px;
+        width: 90px;
+        background-color: brown;
+        margin-left: 15px;
+        margin-bottom: 5px;
+        box-shadow: 3px 3px black  
+    }
+    .section3{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        background-color: coral;
+    }
+    .middle{
+        display: flex;
+    }
+    .fresh{
+        display: flex;
+        flex-direction: column;
+    }
+    .middle-img{
+        margin-left: 50px;
+    }
+    .section4{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        background-color: rgb(207, 216, 26);
+        color: aliceblue;
+    }
+    .section4 h{
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .menu{
+        display: flex;
+        margin-left: 20px;
+    }
+    .food-card{
+        color: black;
+        height: 230px;
+        width: 160px;
+        background-color: antiquewhite;
+        padding: 5px;
+        border-radius: 15px;
+        border: 5px solid black;
+        margin: 12px;
+    }
+    .food-card button{
+        border-radius: 40px;
+        height: 30px;
+        width: 90px;
+        background-color: brown;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        box-shadow: 3px 3px black
+    }
+    .menu-button{
+        margin-top: 0px;
+        border-radius: 5px;
+        width: 100px;
+        background-color: cornflowerblue;
+    }
+    .section5{
+        padding-top: 20px;
+        background-color: khaki;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    } 
+    .sec5-border-card{
+        margin-left: 70px;
+        height: 170px;
+        width: 350px;
+        border-style: solid;
+        padding-top: 15px;
+        border-radius: 40px;
+        position: relative;
+    }
+    .section5 h{
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .section5 input{
+        border: none;
+        border-width: 0px;
+    }
+    .section5 button{
+        border-radius: 10px;
+        height: 20px;
+        width: 90px;
+        background-image: linear-gradient(white,green);
+        margin-top: 6px;
+    }
+    .sec5-border-card1{
+        flex: 0px;
+        text-align: center;
+        border-style: solid;
+        height: 40px;
+        width: 250px;
+        border-radius: 20px;
+        display: flex;
+        padding: 2px;
+        margin-left: 33px;
+        margin-top: 15px;
+    }
+    .footer{
+        padding: 3px;
+        padding-top:3px;
+        display: flex;
+        flex-direction: row;
+        background-color: beige;
+        background-image: repeating-linear-gradient(-45deg,#090,#2a4f32 10%);
+        position:  absolute px;
+        
+    }
+    .list1{
+        list-style: none;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 25px;
+    }
+    
+}
+/* for laptop approach */
+@media(min-width: 1200px){
+    *{
+        background-color: honeydew;
+    }
+}
